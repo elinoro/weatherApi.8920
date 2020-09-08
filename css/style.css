@@ -1,0 +1,64 @@
+html{
+  background: url('https://images-na.ssl-images-amazon.com/images/I/61Y9I2v2ZDL._AC_SL1500_.jpg')no-repeat center center/cover;
+}
+body{
+  font-family: "Nunito",sans-serif;
+}
+
+.input{
+  text-align: center;
+  margin: 100px auto;
+  margin-bottom: 0;
+}
+
+input[type="submit"]{
+  padding: 15px 30px;
+  background: #d4eaf3;
+  border: 3px #4d646d solid;
+  border-radius: 5px;
+  font-family: "Nunito",sans-serif;
+  font-weight:bold;
+  font-size: 20px;
+  width: 150px;
+}
+
+.input input[type="text"]{
+  width: 250px;
+  height: 55px;
+  padding: 5px 10px;
+  background: #e7e7e7;
+  border: 3px #4d646d solid;
+  border-radius: 5px;
+  font-family: "Nunito",sans-serif;
+  font-weight:bold;
+  font-size: 20px;
+}
+
+.card{
+  width: 400px;
+  height: 400px;
+  background: #d4eaf3;
+  margin: 50px auto;
+  margin-top: 10px;
+  border: 3px #4d646d solid;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.close{
+  float: right;
+  margin-top: -2px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.card h1{
+  padding: 5px 0;
+  text-align: center;
+}
+
+.card p{
+  text-align: center;
+  margin:40px 0;
+  font-size:20px;
+}
