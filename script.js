@@ -17,8 +17,8 @@ fetch(`https://api.openweathermap.org/data/2.5/weather?q=${input.value}&appid=6c
   main.innerHTML = data.name;
   desc.innerHTML = data.weather[0].main;
   temp.innerHTML = ((data.main.temp)-273.15).toFixed(2) +' &#8451;';
-  sunrise.innerHTML = utcTime(data.sys.sunrise);
-  sunset.innerHTML = utcTime(data.sys.sunset);
+  sunrise.innerHTML = '<b>Sunrise:</b>  '+utcTime(data.sys.sunrise);
+  sunset.innerHTML = '<b>Sunset:</b>  '+utcTime(data.sys.sunset);
   input.value ="";
 
   function utcTime(value) {
